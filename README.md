@@ -22,7 +22,9 @@ String author = authorEditText.getText().toString();
 ### Creating hashmap
 
 HashMap in Java is a part of the collections framework, which is found in java. util package.HashMap in Java stores the data in (Key, Value) pairs, and you can access them by an index of another type (eg an Integer).
-
+<picture>
+<img src="https://github.com/ManiSaliyan/Android-studio/blob/Learn/constructors-in-hashmap-java.webp">
+<picture>
 ```java
 
 ```
