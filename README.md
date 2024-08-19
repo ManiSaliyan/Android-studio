@@ -21,7 +21,7 @@ String author = authorEditText.getText().toString();
 
 ### Creating hashmap
 
-here hashmap is similar to arrayadaper or array
+HashMap in Java is a part of the collections framework, which is found in java. util package.HashMap in Java stores the data in (Key, Value) pairs, and you can access them by an index of another type (eg an Integer).
 
 ```java
 
