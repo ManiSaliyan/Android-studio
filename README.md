@@ -1,9 +1,8 @@
-### You can add a header
+### Things to Import
 
-You can add text within a collapsed section. 
+here hashmap is similar to arrayadaper or array
 
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```# Android-studio
+```java
+   import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+```
