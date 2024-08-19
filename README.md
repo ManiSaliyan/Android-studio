@@ -58,4 +58,18 @@ quoteHashmap.put("key",key);
 |     0 | Quote     | Life is beautiful  |
 |     1 | Author    | manisalian         |
 |     2 | Key       | xbdndjdjjndmd      |
-|------:|-----------|--------------------|
+
+### Upload data to Firebase
+
+here hashmap is similar to arrayadaper or array
+
+```java
+quotesRef.child(key).setValue(quoteHashmap).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                Toast.makeText(AddQuoteActivity.this, "Added", Toast.LENGTH_SHORT).show();
+                quoteEditText.getText().clear();
+                authorEditText.getText().clear();
+            }
+        });
+```
