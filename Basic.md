@@ -34,3 +34,20 @@ Used to take user input
         android:inputType="text"
         tools:ignore="LabelFor" />
 ```
+
+### Intent Passing
+
+here hashmap is similar to arrayadaper or array
+
+```java
+Intent intent = new Intent(getApplicationContext(), Second_activity.class);
+
+intent.putExtra("message_key", str); 
+startActivity(intent);
+
+
+//in second Activity write
+
+Intent intent = getIntent(); 
+String str = intent.getStringExtra("message_key");
+```
